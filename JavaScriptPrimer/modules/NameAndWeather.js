@@ -9,7 +9,7 @@ var Name = (function () {
     ;
     Object.defineProperty(Name.prototype, "nameMessage", {
         get: function () {
-            return "this.name age=" + this.age;
+            return "\u59D3\u540D\uFF1A" + this.name + " \u5E74\u9F84:" + this.age + "\u5C81";
         },
         enumerable: true,
         configurable: true

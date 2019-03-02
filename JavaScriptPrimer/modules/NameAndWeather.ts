@@ -1,11 +1,11 @@
 export class Name {
-    constructor(private name:string,private age:string) {
+    constructor(private name:string,private age:number) {
         this.name = name;
         this.age = age;
     };
 
     get nameMessage() {
-        return `this.name age=${this.age}`;
+        return `姓名：${this.name} 年龄:${this.age}岁`;
     }
 }
 

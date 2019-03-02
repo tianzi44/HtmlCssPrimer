@@ -1,8 +1,8 @@
-// import {Name,WeatherLocation} from "./modules/NameAndWeather";
+"use strict";
+var NameAndWeather_1 = require("./modules/NameAndWeather");
 console.log("123456");
 console.log("angular");
-// let name = new Name("转生的史莱姆",1);
-// let weatherLocation = new WeatherLocation("晴");
-//
-// console.log(name.nameMessage);
-// console.log(weatherLocation.weatherMesaage); 
+var name = new NameAndWeather_1.Name("转生的史莱姆", 1);
+var weatherLocation = new NameAndWeather_1.WeatherLocation("晴");
+console.log(name.nameMessage);
+console.log(weatherLocation.weatherMesaage);
