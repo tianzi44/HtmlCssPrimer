@@ -1,6 +1,6 @@
 ﻿import { Injectable } from "@angular/core";
 import { Product } from "./Product";
-import {StaticDataSource} from "./StaticDataSource"; 
+import {StaticDataSource} from "./StaticDataSource";
 
 @Injectable()
 export class ProductRepository {
