@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var Name = (function () {
     function Name(name, age) {
         this.name = name;

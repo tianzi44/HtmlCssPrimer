@@ -4,3 +4,5 @@ node_modules/
 /HtmlCssPrimer/.idea/*.iml
 /HtmlCssPrimer/.idea
 /HtmlCssPrimer/package-lock.json
+/JavaScriptPrimer/package-lock.json
+/07-SportsStore/SportsStore/package-lock.json

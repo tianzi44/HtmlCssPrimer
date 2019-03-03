@@ -1,5 +1,5 @@
 export class Name {
-    constructor(private name:string,private age:number) {
+    constructor(public name:string,private age:number) {
         this.name = name;
         this.age = age;
     };
