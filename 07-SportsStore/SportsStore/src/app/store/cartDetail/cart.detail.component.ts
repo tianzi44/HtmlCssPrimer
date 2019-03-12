@@ -6,7 +6,7 @@ import {CartModel} from '../../model/cart.model';
   templateUrl: 'cart.detail.component.html'
 })
 export class CartDetailComponent {
-  constructor(public cartModel: CartModel) {
+  constructor(private cartModel: CartModel) {
     console.log('cartModel' + cartModel);
   }
 }
